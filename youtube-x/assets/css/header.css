@@ -1,0 +1,34 @@
+:root {
+    --text: #dfe3f1;
+    --background: #0b0f18;
+    --primary: #88a0e7;
+    --secondary: #141b2e;
+    --accent: #576fb7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    padding: 1rem;
+}
+
+.logo h1 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.search input[type="text"] {
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 0.5rem;   
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.search input[type="text"]::placeholder {
+    color: var(--text);
+    opacity: 0.5;
+}

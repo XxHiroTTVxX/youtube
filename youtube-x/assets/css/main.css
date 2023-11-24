@@ -1,0 +1,23 @@
+:root {
+    --text: #dfe3f1;
+    --background: #0b0f18;
+    --primary: #88a0e7;
+    --secondary: #141b2e;
+    --accent: #576fb7;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.indentifier {
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+
+}
