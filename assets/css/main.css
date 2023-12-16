@@ -1,0 +1,26 @@
+:root {
+    --text: #dfe3f1;
+    --background: #0b0f18;
+    --primary: #88a0e7;
+    --secondary: #141b2e;
+    --accent: #576fb7;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    background-color: var(--secondary);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
